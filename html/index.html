@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>漫游国家监察委丨新浪新闻</title>
+	<script type="text/javascript" src="../js/a.js"></script>
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="renderer" content="webkit" />
+	<meta name="x5-page-mode" content="app" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" href="../css/swiper.min.css">
+</head>
+<body>
+	<div class="background">
+		<button id="audio_syb" type="button"></button>
+		<button id="audio_btn" type="button"></button>
+		<audio loop src="../music/bgm.mp3" id="media" preload="auto"></audio>
+		<audio src="../music/start.mp3" id="mStart" preload="auto"></audio>
+		<audio src="../music/door.mp3" id="mDoor" preload="auto"></audio>
+		<audio src="../music/car.mp3" id="mCar" preload="auto"></audio>
+
+		<div class="layer_1">
+			<img class="bg_img" src="../img/background_without_door.png"/>
+			<div class="people">
+				<img class="people_img" src="../img/people.png"/>
+			</div>
+			<div class="car">
+				<img id="car_img" src="../img/car.png"/>
+				<div id="wheel1"></div>
+				<div id="wheel2"></div>
+			</div>
+			<div class="start">
+				<button id="start_btn" type="button"></button>
+				<img id="wave" src="../img/wave.png"/>
+				<!--<input class="start_btn" name="" type="button" />-->
+			</div>
+			<div class="door_l">
+				<img class="door_l_img" src="../img/door_l.png">
+			</div>
+			<div class="door_r">
+				<img class="door_r_img" src="../img/door_r.png">
+			</div>
+			<img id="sensor" src ="../img/sensor_off.png">
+		</div>
+		
+		<div class="content_pic">
+			<img class="content_pic_img" src="../img/shop.png">
+		</div>
+		
+
+
+		<div class="layer_2">
+			<button id="share_btn" type="button"></button>
+			<img id="share_bg" src="../img/share_bg.png" />
+			<div id="wrapper">
+				<div id="scroller">
+					<div class="indoor">
+						<img src="../img/indoor_with_doorbg.png"/>
+					</div>
+					<div class="indoor_door indoor_door_1" data="0">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+
+					<div class="indoor_door indoor_door_2" data="1">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle">
+						</div>
+					</div>
+					<div class="indoor_door indoor_door_3" data="2">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+
+					<div class="indoor_door indoor_door_4" data="3">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+
+					<div class="indoor_door indoor_door_6" data="4">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+
+					<div class="indoor_door indoor_door_7" data="5">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+
+					<div class="indoor_door indoor_door_8" data="6">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+
+					<div class="indoor_door indoor_door_9" data="7">
+						<div class="indoor_door_bg">
+							<img src="../img/indoor_door.png"/>
+						</div>
+						<div class="indoor_door_handle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="layer_3">
+			<div class="layer_opacity"></div>
+			<div class="card">
+				<!-- <img src="../img/card.png"/> -->
+				<div class="dep"></div>
+				<div id="card_content">
+					<div id="card_scroller">
+						<img src="../img/background_without_door.png" class="cardImg">
+					</div>
+				</div>
+				<div class="card_close"></div>
+			</div>
+		</div>
+
+	<script src="http://mjs.sinaimg.cn/wap/online/public/share/shareWx_main.js"></script>
+	<script type="text/javascript">
+        var _wxShareConfig = {
+            title: '漫游国家监察委丨新浪新闻', // 分享标题
+            desc: '“以后在教科书看到的将不再是“一府两院”，而是“一府两院一委”。”', // 分享描述
+            link: 'http://news.sina.cn/zt_d/2017zgzy', // 分享链接
+            imgUrl: '../img/forshare.jpg', // 分享图标
+            type: '', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+        }
+	</script>
+    <script type="text/javascript" src="../js/iscroll.js"></script>		
+    <script src="../js/animate.js"></script> 	
+</body>
+</html>
